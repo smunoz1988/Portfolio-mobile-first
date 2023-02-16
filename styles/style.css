@@ -42,8 +42,8 @@ body {
 }
 
 #head {
-  background-image: 
-    url(../images/Ellipse3.png), 
+  background-image:
+    url(../images/Ellipse3.png),
     url(../images/Rectangle4.png),
     url(../images/Rectangle6.png),
     url(../images/Ellipse11.png),
@@ -52,9 +52,9 @@ body {
     url(../images/Ellipse12.png),
     url(../images/Ellipse13.png),
     url(../images/Ellipse4.png),
-    url(../images/Rectangle5.png);  
-  background-position: 
-    100% 11.5%, 
+    url(../images/Rectangle5.png);
+  background-position:
+    100% 11.5%,
     100% 6%,
     1% 4%,
     1% 7%,
@@ -65,7 +65,7 @@ body {
     67% 90.1%,
     61% 91%;
   background-repeat: no-repeat;
-  display: flex
+  display: flex;
 }
 
 h1 {
