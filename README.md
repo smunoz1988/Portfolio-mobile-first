@@ -61,7 +61,9 @@
 ### Key Features <a name="key-features"></a>
 
 - html with css style using Mobile First.
-- Uning Flexbox as a tool.
+- Responsive mobile Menu
+- Work and About Sections
+- Contact form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +81,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--html and css
+-IDE for example Visual Code or Atom. 
 
 ### Setup
 
@@ -91,25 +93,23 @@ https://github.com/smunoz1988/Portfolio-mobile-first
 
 Install this project with:
 
--Does not apply for the moment, just need a browser to open it.
+-Does not apply for the moment, just need a browser to open it. Mozilla Firefox recomended.
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project:
 
--Does not apply for the moment
+-open de index.html in youre browser. Mozilla Firefox recomended. 
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests:
 
--Does not apply for the moment
+-You can use linters to run test for this project. 
 
 ### Deployment
 
-You can deploy this project using:
-
--Does not apply for the moment
+You can deploy this project using tools as Parcel. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,8 +125,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Mobile Version.
 - Desktop Version.
+- About Section
 - Validate Contact Form.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,7 +147,7 @@ If you like this project or have any advise just send me a message and I will be
 
 I would like to thank my coding partners! the have been a great support!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 

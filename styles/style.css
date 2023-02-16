@@ -12,9 +12,19 @@ body {
 
 .toolbar {
   background-color: #fff;
-  padding: 5%;
+  padding: 3%;
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  position: relative;
+  margin-top: 3%;
 }
 
 /* for the moment it has no display, this will be set on future commits in the project */
@@ -24,13 +34,38 @@ body {
 
 .headline {
   background-color: #fff;
-  background-image: url("../images/fondo.png");
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: start;
   padding: 30% 10% 45% 10%;
-  border-bottom-left-radius: 10%;
+  border-bottom-left-radius: 15%;
+}
+
+#head {
+  background-image: 
+    url(../images/Ellipse3.png), 
+    url(../images/Rectangle4.png),
+    url(../images/Rectangle6.png),
+    url(../images/Ellipse11.png),
+    url(../images/Rectangle7.png),
+    url(../images/Ellipse5.png),
+    url(../images/Ellipse12.png),
+    url(../images/Ellipse13.png),
+    url(../images/Ellipse4.png),
+    url(../images/Rectangle5.png);  
+  background-position: 
+    100% 11.5%, 
+    100% 6%,
+    1% 4%,
+    1% 7%,
+    37% 10%,
+    36% 11%,
+    90% 71%,
+    88% 73.8%,
+    67% 90.1%,
+    61% 91%;
+  background-repeat: no-repeat;
+  display: flex
 }
 
 h1 {
