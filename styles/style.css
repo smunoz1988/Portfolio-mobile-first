@@ -1,0 +1,67 @@
+/* Minimum desktop screen size should be 375px */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.toolbar {
+  background-color: #fff;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* for the moment it has no display, this will be set on future commits in the project */
+.navigation {
+  display: none;
+}
+
+.headline {
+  background-color: #fff;
+  background-image: url("../images/fondo.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 30% 10% 45% 10%;
+  border-bottom-left-radius: 10%;
+}
+
+h1 {
+  color: #172b4d;
+  font-size: 40px;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.resume {
+  display: flex;
+  margin-top: 12px;
+  width: 80%;
+  border: 0;
+  font-size: 16px;
+}
+
+.connect {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #7f8cff;
+}
+
+.media {
+  margin-right: 20px;
+  margin-top: 12px;
+}
+
+/* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: black;
+  }
+}
