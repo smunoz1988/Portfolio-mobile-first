@@ -52,7 +52,10 @@ body {
     url(../images/Ellipse12.png),
     url(../images/Ellipse13.png),
     url(../images/Ellipse4.png),
-    url(../images/Rectangle5.png);
+    url(../images/Rectangle5.png),
+    url(../images/Ellipse8.png),
+    url(../images/Ellipse14.png),
+    url(../images/Ellipse15.png);
   background-position:
     100% 11.5%,
     100% 6%,
@@ -63,7 +66,10 @@ body {
     90% 71%,
     88% 73.8%,
     67% 90.1%,
-    61% 91%;
+    61% 91%,
+    60% 6%,
+    80% 35%,
+    17% 86%;
   background-repeat: no-repeat;
   display: flex;
 }
@@ -87,6 +93,7 @@ h1 {
   margin-top: 12px;
   margin-bottom: 12px;
   color: #7f8cff;
+  font-size: 16px;
 }
 
 .personalMedia {
