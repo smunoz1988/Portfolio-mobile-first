@@ -54,6 +54,11 @@ h1 {
   color: #7f8cff;
 }
 
+.personalMedia {
+  display: flex;
+  list-style-type: none;
+}
+
 .media {
   margin-right: 20px;
   margin-top: 12px;
