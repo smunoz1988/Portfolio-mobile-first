@@ -226,6 +226,7 @@ h1 {
   grid-template-columns: auto auto;
   padding: 20px 1px 20px 1px;
   position: relative;
+  margin-top: 40px;
 }
 
 .arrow {
