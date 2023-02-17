@@ -38,7 +38,7 @@ body {
   flex-direction: column;
   align-items: start;
   padding: 30% 10% 45% 10%;
-  border-bottom-left-radius: 15%;
+  border-bottom-left-radius: 80px;
 }
 
 #head {
@@ -84,9 +84,10 @@ h1 {
 .resume {
   display: flex;
   margin-top: 12px;
-  width: 80%;
+  width: 100%;
   border: 0;
   font-size: 16px;
+  color: #344563;
 }
 
 .connect {
@@ -104,6 +105,154 @@ h1 {
 .media {
   margin-right: 20px;
   margin-top: 12px;
+}
+
+.works {
+  display: grid;
+  gap: 6rem;
+  padding: 6rem 1.5rem 6rem 1.5rem;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dfe1e6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  padding-bottom: 0;
+}
+
+.cardsection {
+  padding: 1rem;
+}
+
+.cardsection h4 {
+  font-size: 36px;
+  color: #172b4d;
+  font-weight: bold;
+}
+
+.company {
+  padding-top: 0;
+}
+
+.client {
+  display: flex;
+  list-style-type: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.worktime {
+  padding-right: 0.5rem;
+}
+
+.worktitle {
+  color: #7a869a;
+}
+
+.tag {
+  font-size: 12px;
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.cardButton {
+  width: 125px;
+  height: 55px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #396df2;
+  border-color: #396df2;
+  transition-duration: 0.4s;
+}
+
+.cardButton:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.aboutMe {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 30% 10% 45% 10%;
+  border-top-right-radius: 80px;
+}
+
+.aboutMe h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.social {
+  padding: 10px;
+}
+
+.resumeButton {
+  width: 160px;
+  height: 55px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #396df2;
+  border-color: #396df2;
+}
+
+.resumeButton:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.categories {
+  list-style-type: none;
+  padding: 20px 1px 20px 10px;
+}
+
+.atribute {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 1px 20px 1px;
+}
+
+.languaje {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.languaje li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.js {
+  padding-right: 155px;
+}
+
+.html {
+  padding-right: 200px;
+}
+
+.css {
+  padding-right: 210px;
 }
 
 /* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt */
