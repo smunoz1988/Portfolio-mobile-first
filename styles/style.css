@@ -272,6 +272,15 @@ h1 {
   padding-right: 190px;
 }
 
+.contactMe {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 30% 10% 45% 10%;
+  border-top-right-radius: 80px;
+}
+
 /* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt */
 @media screen and (min-width: 768px) {
   body {
