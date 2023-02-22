@@ -175,11 +175,13 @@ h1 {
   color: #396df2;
   border-color: #396df2;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .cardButton:hover {
   background-color: #6070ff;
   color: white;
+  box-shadow: 0.1px 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .cardButton:active {
@@ -192,7 +194,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 30% 10% 45% 10%;
+  padding: 30% 10% 30% 10%;
   border-top-right-radius: 80px;
 }
 
@@ -214,11 +216,18 @@ h1 {
   background-color: #fff;
   color: #396df2;
   border-color: #396df2;
+  cursor: pointer;
 }
 
 .resumeButton:hover {
   background-color: #6070ff;
   color: white;
+  border-color: none;
+  box-shadow: 0.1px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.resumeButton:active {
+  background-color: #2230d2;
 }
 
 .container {
@@ -272,7 +281,69 @@ h1 {
   padding-right: 190px;
 }
 
-/* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt */
+.contactMe {
+  background-color: #6070ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30% 10% 20% 10%;
+  border-top-left-radius: 80px;
+  color: white;
+}
+
+.contactMe h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contact_info {
+  margin-top: 12px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form_info {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border-color: #cfd8dc;
+  padding: 15px;
+  font-size: 17px;
+}
+
+#user_message {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+#class_background {
+  background-color: white;
+}
+
+#contact_back {
+  background-image:
+    url(../images/Ellipse1.png),
+    url(../images/EllipseC12.png),
+    url(../images/RectangleC7.png),
+    url(../images/EllipseC5.png),
+    url(../images/RectangleC4.png);
+  background-position:
+    100% 9%,
+    44% 8%,
+    85% 90%,
+    73% 90%,
+    100% 4.5%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+/* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt. */
 @media screen and (min-width: 768px) {
   body {
     background-color: black;
