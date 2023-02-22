@@ -121,6 +121,16 @@ You can deploy this project using tools as Parcel.
 - Twitter: [@Santiag24209785](https://twitter.com/Santiag24209785)
 - LinkedIn: [Santiago Muñoz](https://www.linkedin.com/in/santiago-munoz-0b2b1a260/)
 
+Colaborators:
+
+👤 Luis Pavanello
+
+- GitHub: [@smunoz](https://github.com/luisrpavanelli)
+
+👤 Eric Boateng
+
+- GitHub: [@smunoz](https://github.com/Mylo16)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
