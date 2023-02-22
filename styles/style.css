@@ -340,7 +340,7 @@ form button {
   display: flex;
 }
 
-/* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt */
+/* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt. */
 @media screen and (min-width: 768px) {
   body {
     background-color: black;
