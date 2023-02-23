@@ -12,9 +12,10 @@ body {
 
 .toolbar {
   background-color: #fff;
-  padding: 3%;
+  padding: 1rem 3.7rem 0.1px 2.7rem;
   display: flex;
   justify-content: space-between;
+  color: #344563;
 }
 
 .logo {
@@ -76,6 +77,7 @@ body {
 h1 {
   color: #172b4d;
   font-size: clamp(2.5rem, 1rem + 10vw, 3rem);
+  font-weight: 700;
   margin-bottom: 0;
   display: flex;
 }
@@ -347,7 +349,7 @@ h1 {
 /* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt. */
 @media screen and (min-width: 768px) {
   .toolbar {
-    padding: 0.1rem 9.6rem 0.1rem 9.6rem;
+    padding: 0.1rem 4.35rem 0.1rem 10rem;
   }
 
   .menu {
@@ -367,6 +369,7 @@ h1 {
   .navigation a {
     margin: 30px;
     text-decoration: none;
+    color: #344563;
   }
 
   .headline {
@@ -453,6 +456,14 @@ h1 {
 
   .card div {
     padding: 2.5rem;
+  }
+
+  .client img {
+    padding-bottom: 1px;
+  }
+
+  .client li {
+    margin-left: 0.1px;
   }
 
   .aboutMe {
