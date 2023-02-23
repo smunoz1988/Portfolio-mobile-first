@@ -61,7 +61,7 @@
 ### Key Features <a name="key-features"></a>
 
 - html with css style using Mobile First.
-- Responsive mobile Menu
+- Responsive desktop version
 - Work and About Sections
 - Contact form
 
@@ -125,19 +125,17 @@ Colaborators:
 
 👤 Luis Pavanello
 
-- GitHub: [@smunoz](https://github.com/luisrpavanelli)
+- GitHub: [@luisrpavanelli](https://github.com/luisrpavanelli)
 
 👤 Eric Boateng
 
-- GitHub: [@smunoz](https://github.com/Mylo16)
+- GitHub: [@Mylo16](https://github.com/Mylo16)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Desktop Version.
-- About Section
-- Validate Contact Form.
+- Animations
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

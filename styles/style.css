@@ -27,7 +27,6 @@ body {
   margin-top: 3%;
 }
 
-/* for the moment it has no display, this will be set on future commits in the project */
 .navigation {
   display: none;
 }
@@ -76,7 +75,7 @@ body {
 
 h1 {
   color: #172b4d;
-  font-size: 40px;
+  font-size: clamp(2.5rem, 1rem + 10vw, 3rem);
   margin-bottom: 0;
   display: flex;
 }
@@ -86,7 +85,7 @@ h1 {
   margin-top: 12px;
   width: 100%;
   border: 0;
-  font-size: 16px;
+  font-size: 1rem;
   color: #344563;
 }
 
@@ -130,6 +129,8 @@ h1 {
 
 .cardsection {
   padding: 1rem;
+  width: 100%;
+  height: auto;
 }
 
 .cardsection h4 {
@@ -345,7 +346,220 @@ h1 {
 
 /* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt. */
 @media screen and (min-width: 768px) {
-  body {
-    background-color: black;
+  .toolbar {
+    padding: 0.1rem 9.6rem 0.1rem 9.6rem;
   }
+
+  .menu {
+    display: none;
+  }
+
+  .toolbar div {
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation a {
+    margin: 30px;
+    text-decoration: none;
+  }
+
+  .headline {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 300px 260px 200px 260px;
+    border-bottom-left-radius: 80px;
+  }
+
+  .headline p {
+    font-size: 20px;
+  }
+
+  #head {
+    background-image:
+      url(../images/des1.png),
+      url(../images/Des2.png),
+      url(../images/Des3.png),
+      url(../images/Des4.png),
+      url(../images/Des5.png),
+      url(../images/Des6.png),
+      url(../images/Des7.png),
+      url(../images/Des10.png),
+      url(../images/Des8.png),
+      url(../images/Des9.png),
+      url(../images/Des11.png),
+      url(../images/Des12.png),
+      url(../images/Des13.png);
+    background-position:
+      98% 25%,
+      92% 12%,
+      5% 9%,
+      8% 17%,
+      48% 18%,
+      48% 20%,
+      70.5% 83.5%,
+      67% 87.8%,
+      16% 89%,
+      17% 85%,
+      65% 8%,
+      90% 78%,
+      30% 11%;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+
+  .works {
+    display: grid;
+    gap: 6rem;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .oddCard {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfe1e6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pairCard {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfe1e6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .cardsection {
+    width: 50%;
+    height: auto;
+  }
+
+  .card img {
+    padding-bottom: 1rem;
+  }
+
+  .card div {
+    padding: 2.5rem;
+  }
+
+  .aboutMe {
+    padding: 8%;
+    flex-direction: row;
+  }
+
+  .test {
+    width: 40%;
+    margin-right: 2rem;
+  }
+
+  .test1 {
+    width: 55%;
+  }
+
+  .cardButton {
+    margin-top: 1rem;
+  }
+
+  .container {
+    margin-top: 0.1px;
+  }
+
+  .languaje {
+    flex-direction: row;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-direction: alternate;
+  }
+
+  .languaje li {
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+    align-items: start;
+    margin-left: 1rem;
+  }
+
+  .js {
+    padding-right: 1px;
+  }
+
+  .html {
+    padding-right: 1px;
+  }
+
+  .css {
+    padding-right: 1px;
+  }
+
+  .lang {
+    padding-bottom: 12px;
+  }
+
+  .resumeButton {
+    margin-top: 1rem;
+  }
+
+  #contact_back {
+    background-image:
+      url(../images/con1.png),
+      url(../images/con2.png),
+      url(../images/con3.png),
+      url(../images/con4.png),
+      url(../images/con5.png),
+      url(../images/con6.png),
+      url(../images/con7.png),
+      url(../images/con8.png);
+    background-position:
+      5% 50%,
+      5% 46.5%,
+      20% 90%,
+      22% 92%,
+      32% 12%,
+      85% 65%,
+      90% 10%,
+      93% 16%;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+
+  .contactMe {
+    padding: 8.875rem 20rem 8.875rem 20rem;
+  }
+
+  .contact_info {
+    width: 32rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form_info {
+    width: 30.25rem;
+    border-radius: 0.1px;
+  }
+
+  #user_message {
+    border-radius: 0.1px;
+  }
+}
+
+@keyframes mymove {
+  0% { left: 0.1px; }
+  100% { left: 200px; }
 }
