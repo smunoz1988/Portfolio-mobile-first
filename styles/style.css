@@ -357,15 +357,17 @@ h1 {
   }
 
   .logo {
-    position: relative;
+   position: relative;
    animation-name: mymove;
    animation-duration: 5s;
    animation-iteration-count: infinite;
    animation-direction: alternate;
   }
-
   
-
+  h1:hover {
+    font-size: 60px;
+  }
+  
   .toolbar div {
     display: flex;
     align-items: center;
