@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Does not apply for the moment, until is finished.
+- You can visit this site on https://smunoz1988.github.io/Portfolio-mobile-first/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
