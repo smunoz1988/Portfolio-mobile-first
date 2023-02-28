@@ -63,7 +63,7 @@
 - html with css style using Mobile First.
 - Responsive desktop version
 - Work and About Sections
-- Contact form
+- Website accessibility
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,6 +130,12 @@ Colaborators:
 👤 Eric Boateng
 
 - GitHub: [@Mylo16](https://github.com/Mylo16)
+
+👤 Agyare Kissi Kenneth
+
+- GitHub: [@githubhandle](https://github.com/over-geek)
+- Twitter: [@twitterhandle](https://twitter.com/KissiKenneth)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kenneth-agyare-kissi-673a01186/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
