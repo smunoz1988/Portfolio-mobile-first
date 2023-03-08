@@ -313,6 +313,7 @@ h1 {
 
 .tag {
   font-size: 12px;
+  font-weight: 900;
   color: #6070ff;
   background-color: #ebebff;
   padding: 0.5rem;
@@ -521,6 +522,27 @@ h1 {
 
   h1:hover {
     font-size: 60px;
+  }
+
+  /* work popup Desktop version */
+
+  .workInfoDesktop {
+    display: flex;
+  }
+
+  .techLiveSource {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+
+  .cardPop {
+    max-width: 1156px;
+    padding-bottom: 3rem;
+  }
+
+  .techBox {
+    padding: 0.1rem 1rem 0.1rem 0.1rem;
   }
 
   .toolbar div {
