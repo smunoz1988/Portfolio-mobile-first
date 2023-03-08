@@ -57,6 +57,110 @@ body {
   text-decoration: none;
 }
 
+/* work popout */
+
+#display_work {
+  display: none;
+}
+
+.work_overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c1c7d0;
+  mix-blend-mode: multiply;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.center_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0.1rem 5rem 0.1rem;
+}
+
+.center_card ul {
+  align-items: center;
+}
+
+.cardPop {
+  position: fixed;
+  z-index: 3;
+  background-color: white;
+  padding: 1rem;
+  width: 90%;
+  height: 610px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.close_work {
+  color: #67798e;
+  font-size: 2rem;
+}
+
+.work_pop_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work_pop_title h4 {
+  font-size: 36px;
+  color: #172b4d;
+  font-weight: bold;
+}
+
+.cardPop ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.imageWork {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  height: auto;
+}
+
+.workDetail {
+  font-size: 15px;
+  color: #344563;
+}
+
+.buttonBox {
+  display: flex;
+  width: 19rem;
+  justify-content: space-between;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  border-top: 1px solid #ebecf0;
+}
+
+.goButtons {
+  width: 140px;
+  height: 55px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #396df2;
+  border-color: #396df2;
+  cursor: pointer;
+}
+
+.goButtons:hover {
+  background-color: #6070ff;
+  color: white;
+  border-color: none;
+  box-shadow: 0.1px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.goButtons:active {
+  background-color: #2230d2;
+}
+
 .toolbar {
   background-color: #fff;
   padding: 1rem 3.7rem 0.1px 2.7rem;
