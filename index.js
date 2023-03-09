@@ -168,15 +168,15 @@ buttonCall.forEach((buton, index) => {
 
 //  Form validation
 
-function validMail() {
-  const userMail = document.getElementById('mail');
-  const userInput = userMail.value;
+const contactForm = document.getElementById('contactForm');
+const errorMessage = document.getElementById('errorMessage');
 
-  if (userInput == userInput.toLowerCase()) {
-    return true;
+contactForm.addEventListener('submit', (event) => {
+  const email = document.getElementById('mail');
+  const emailVal = email.value;
+
+  if (emailVal !== emailVal.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.innerHTML = 'Please, email field has to be in lower case.';
   }
-
-  const error = document.getElementById('errorMessage');
-  error.innerHTML = 'Please, email field has to be in lower case.'
-  return false;
-}
+});

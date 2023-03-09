@@ -101,6 +101,7 @@ body {
 .close_work {
   color: #67798e;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .work_pop_title {
