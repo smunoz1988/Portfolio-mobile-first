@@ -165,3 +165,18 @@ buttonCall.forEach((buton, index) => {
     });
   });
 });
+
+//  Form validation
+
+const contactForm = document.getElementById('contactForm');
+const errorMessage = document.getElementById('errorMessage');
+
+contactForm.addEventListener('submit', (event) => {
+  const email = document.getElementById('mail');
+  const emailVal = email.value;
+
+  if (emailVal !== emailVal.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.innerHTML = 'Please, email field has to be in lower case.';
+  }
+});

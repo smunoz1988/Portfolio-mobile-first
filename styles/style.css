@@ -101,6 +101,7 @@ body {
 .close_work {
   color: #67798e;
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .work_pop_title {
@@ -496,6 +497,15 @@ h1 {
     100% 4.5%;
   background-repeat: no-repeat;
   display: flex;
+}
+
+#errorMessage {
+  color: red;
+  border: solid 1px white;
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
 }
 
 /* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt. */
