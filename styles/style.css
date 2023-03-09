@@ -498,6 +498,15 @@ h1 {
   display: flex;
 }
 
+#errorMessage {
+  color: red;
+  border: solid 1px white;
+  background-color: white;
+  margin-top: 1rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+}
+
 /* Minimum desktop screen size should be 768px. this will be changed in the next summits when i make the deskopt. */
 @media screen and (min-width: 768px) {
   .toolbar {

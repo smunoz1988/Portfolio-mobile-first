@@ -165,3 +165,18 @@ buttonCall.forEach((buton, index) => {
     });
   });
 });
+
+//  Form validation
+
+function validMail() {
+  const userMail = document.getElementById('mail');
+  const userInput = userMail.value;
+
+  if (userInput == userInput.toLowerCase()) {
+    return true;
+  }
+
+  const error = document.getElementById('errorMessage');
+  error.innerHTML = 'Please, email field has to be in lower case.'
+  return false;
+}
