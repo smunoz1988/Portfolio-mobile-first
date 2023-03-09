@@ -62,7 +62,7 @@
 
 - html with css style using Mobile First.
 - Responsive desktop version
-- Work and About Sections
+- Form validation
 - Work Popup
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
