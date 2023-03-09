@@ -91,7 +91,7 @@ body {
   position: fixed;
   z-index: 3;
   background-color: white;
-  padding: 1rem;
+  padding: 0.75rem;
   width: 90%;
   height: 610px;
   overflow: auto;
