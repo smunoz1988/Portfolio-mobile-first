@@ -78,7 +78,7 @@ const projects = [
 
 const cardContainer = document.querySelector('#work');
 
-for (let i in projects) {
+for (let i = 0; i < projects.length; i += 1) {
   const card = `
   <div class="${projects[i].type}">
   <img class="cardsection" src=${projects[i].image} alt="SnapshootPortfolio">
@@ -163,5 +163,5 @@ buttonCall.forEach((buton, index) => {
       document.getElementById('display_work').style.display = 'none';
       document.getElementById('main').style.filter = 'none';
     });
-    });
+  });
 });
