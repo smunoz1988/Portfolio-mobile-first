@@ -62,7 +62,7 @@
 
 - html with css style using Mobile First.
 - Responsive desktop version
-- Form validation
+- Preserve data in the browser
 - Work Popup
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
