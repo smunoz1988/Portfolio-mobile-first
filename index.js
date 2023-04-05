@@ -33,13 +33,13 @@ backCon.addEventListener('click', () => {
 
 const projects = [
   {
-    name: 'Project 1',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    name: 'Conference Page',
+    description: 'Firemen Meeting 2023 is a Mobile First html. css and js project. Its only for educational purpose and is based on the Original design idea by Cindy Shin in Behance.',
     image: 'images/work1.png',
-    technologies: ['html', 'css', 'ruby'],
-    liveLink: 'https://www.google.com',
-    sourceLink: 'https://www.github.com',
-    year: '2020',
+    technologies: ['html', 'css', 'javascript'],
+    liveLink: 'https://smunoz1988.github.io/ConferencePage/index.html',
+    sourceLink: 'https://github.com/smunoz1988/ConferencePage',
+    year: '2023',
     type: 'card oddCard',
   },
   {
